@@ -8,7 +8,7 @@
 /* Responsive max-width:576px */
 @media (max-width: 576px) {
     .container {
-        width: 100%;
+        width: 500px;
     }
 
     .row {
@@ -16,18 +16,20 @@
         align-items: center;
     }
 
+
     .lessons .col {
-        width: 60%;
+        width: 80%;
         margin: 20px 0;
     }
 
     .steps .col {
-        width: 60%;
+        width: 80%;
         margin: 20px 0;
     }
 
-    .why-us .col-left {
-        width: 60%;
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 80%;
         margin: 20px 0;
     }
 
