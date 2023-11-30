@@ -1,0 +1,34 @@
+/* Responsive max-width:768px */
+@media (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+}
+
+/* Responsive max-width:576px */
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .steps .col {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .why-us .col-left {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+}
